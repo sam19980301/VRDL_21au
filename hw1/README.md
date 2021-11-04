@@ -10,24 +10,28 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
+A github repo [PMG-Progressive-Multi-Granularity-Training](https://github.com/PRIS-CV/PMG-Progressive-Multi-Granularity-Training) is used and modified to train the fine-grained model parts. To download it:
+
+```add modified repo
+git clone https://github.com/sam29309010/PMG-Progressive-Multi-Granularity-Training.git
+```
 Some information and settings of homework dataset: [2021VRDL_HW1_Datasets](https://drive.google.com/drive/folders/1_Rse7MY17IyGIzh8MSuBYpsj3wTVIVRT?usp=sharing)
 
 ## Training
 
-To train the basic model (e.g. ResNet) in this repository, run this command:
+To train the basic model (e.g. ResNet), run this command:
 
 ```train
 cd ./basic
 python train_model.py
 ```
 
-To train the fine-grained model (PMG-Progressive-Multi-Granularity-Training) in this repository, run this command:
+To train the fine-grained model (PMG-Progressive-Multi-Granularity-Training), run this command:
 
 ```train
 cd ./PMG-Progressive-Multi-Granularity-Training
 python train.py
 ```
-The code of PMG model if modified from [this github repo](https://github.com/PRIS-CV/PMG-Progressive-Multi-Granularity-Training).
 
 After running the command lines, model will be trained and weights should be saved in correspoding directory.
 
