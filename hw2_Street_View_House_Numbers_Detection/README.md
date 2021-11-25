@@ -102,6 +102,9 @@ cd mmdetection
     --options "jsonfile_prefix=./deformable_detr_inference"
 ```
 
+To submit the answer to codalab, run `generate_answer.py` to generate the results.
+More information could be found via this [Colab Jupyter Notebook](https://colab.research.google.com/drive/1GhV3ZyXSyvNHupWSeOnB09k3Hx_i0Gqw?usp=sharing).
+
 ## Results
 We summarize the mAP and inference speed of all the models mentioned above, and run time is evaluated on Nvidia Tesla K80 GPU offered by Google Colab. Inference speed may fluctuate according to the enviornment setting of Colab, hence relative speed may be a better metric.
 
