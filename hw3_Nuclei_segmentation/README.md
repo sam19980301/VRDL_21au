@@ -1,4 +1,4 @@
-# Selected Topics in Visual Recognition using Deep Learning Homework-2
+# Selected Topics in Visual Recognition using Deep Learning Homework-3
 
 This repository is the implementation of homework3 of VRDL course. The project compares and analyzes the performance of Mask RCNN (R50, R101, X101), Cascade Mask RCNN (R50) on Nuclei dataset. The summary report in both PDF and Markdown foramt could be found in [report directory](./report/).
 
