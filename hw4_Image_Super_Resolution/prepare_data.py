@@ -18,9 +18,9 @@ train_image_list = images_list[:-test_size]
 test_image_list = images_list[-test_size:]
 
 for image in train_image_list:
-    dat = cv2.imread(os.path.join(src_path,image))
-    cv2.imwrite(os.path.join(tar_tarin_path,image),dat)
+    dat = cv2.imread(os.path.join(src_path, image))
+    cv2.imwrite(os.path.join(tar_tarin_path, image), dat)
 
 for image in test_image_list:
-    dat = cv2.imread(os.path.join(src_path,image))
-    cv2.imwrite(os.path.join(tar_test_path,image),dat)
+    dat = cv2.imread(os.path.join(src_path, image))
+    cv2.imwrite(os.path.join(tar_test_path, image), dat)
